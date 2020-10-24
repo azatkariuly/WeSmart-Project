@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/indicator1"
+        android:layout_marginTop="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="225dp">
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:background="@color/button_pressed"
+            android:id="@+id/aging_rate_txt"
+            android:layout_width="match_parent"
+            android:layout_marginRight="26dp"
+            android:layout_height="42dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aging Rate"
+                android:textColor="#ffffff"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/aging_rate_txt"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/aging_rate_indicator"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:sv_trembleDegree="3"
+                app:sv_startDegree="130"
+                app:sv_endDegree="410"
+                app:sv_indicator="HalfLineIndicator"
+                app:sv_speedTextColor="#00ffffff"
+                app:sv_unitTextColor="#00ffffff"
+                app:sv_textColor="#00ffffff"
+                app:sv_centerCircleRadius="46dp"
+                />
+
+            <TextView
+                android:id="@+id/agingrateTxt"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-- h/h"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/indicator2"
+        android:layout_below="@+id/indicator1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="225dp">
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:background="@color/button_pressed"
+            android:id="@+id/vibration_txt"
+            android:layout_marginRight="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vibration"
+                android:textColor="#ffffff"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/vibration_txt"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/vibration_rate_indicator"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:sv_trembleDegree="3"
+                app:sv_startDegree="130"
+                app:sv_endDegree="410"
+                app:sv_indicator="HalfLineIndicator"
+                app:sv_speedTextColor="#00ffffff"
+                app:sv_unitTextColor="#00ffffff"
+                app:sv_textColor="#00ffffff"
+                app:sv_centerCircleRadius="46dp"
+
+                />
+            <TextView
+                android:id="@+id/vibrationTxt"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-- mm/s^2"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

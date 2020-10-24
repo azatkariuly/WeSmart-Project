@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="notifications"
+        android:title="Enable notifications"/>
+
+    <Preference
+        android:key="feedback"
+        android:title="Send feedback"
+        android:summary="Report"/>
+
+    <CheckBoxPreference
+        android:key="pref_sync"
+        android:title="Sync"
+        android:defaultValue="true"/>
+</PreferenceScreen>

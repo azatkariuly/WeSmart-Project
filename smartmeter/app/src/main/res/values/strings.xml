@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeSmart</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_live">Live</string>
+    <string name="title_device">Device</string>
+    <string name="title_settings">Settings</string>
+</resources>

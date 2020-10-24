@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:textColor="#ffffff"
+            android:background="#69ab1d"
+            android:id="@+id/btn_power"
+            android:layout_weight="1"
+            android:textSize="9sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power"/>
+        <Button
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:textColor="#000000"
+            android:background="#bdbdbd"
+            android:id="@+id/btn_aging_rate"
+            android:layout_weight="1"
+            android:textSize="9sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ageing Rate"/>
+        <Button
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:textColor="#000000"
+            android:background="#bdbdbd"
+            android:id="@+id/btn_vibration"
+            android:textSize="9sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibration"/>
+        <Button
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:background="#bdbdbd"
+            android:id="@+id/btn_load_forecasting"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Forecast" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"/>
+
+
+
+</LinearLayout>

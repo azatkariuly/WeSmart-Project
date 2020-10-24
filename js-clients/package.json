@@ -1,0 +1,16 @@
+{
+  "name": "wstut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sockjs": "^0.3.19",
+    "sockjs-client": "^1.4.0",
+    "stompjs": "^2.3.3"
+  }
+}
